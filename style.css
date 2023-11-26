@@ -1,0 +1,174 @@
+    body {background-color: rgb(205, 193, 151);}
+    .header   {color: rgb(87, 87, 232); font-size:20px;}
+    .button {border: 2px solid rgb(87, 87, 232); width: 80px; height:50px; display: block; margin-left: auto; margin-right: auto; font-size: 16px; transition-duration: 0.4s; border-radius: 8px;}
+    .button:hover {background-color:rgb(87, 87, 232) ; color: rgb(255, 225, 128);}
+    .menu {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgb(33, 33, 78);
+    }
+      .menu_li {
+        float: left;
+      }
+      .menu_li_a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      .menu_li_a:hover {
+        background-color: #121212;
+      }
+      .menu_li:last-child{
+        float: right;
+      }
+    .main_li{
+      font-family: Georgia;
+      display: inline-block;
+      font-size: 20px;
+      padding: 20px;
+      margin-top: 6%;
+    }
+    .image{
+      width: 30%;
+      margin-top: 2%;
+      margin-bottom: 10%;
+    }
+    @media screen and (max-width: 600px) {
+      body {
+        background-color: rgb(239, 239, 97);
+      }
+    }
+    .main_ul{
+      list-style-type: none;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    @keyframes mymove {
+      from {left: -100%;}
+      to {left: 0px;}
+    }
+    hr{
+      width: 100%;
+      background-color: rgb(0, 38, 255);
+      position: relative;
+      animation: mymove 10s;
+      animation-fill-mode: forwards;
+    }
+    .info_li{
+      list-style-type: none;
+      float:center;
+      margin: 15%;
+      padding: 50px;
+      background-image: radial-gradient(rgb(135, 135, 240), rgb(214, 248, 248));
+      border: 3px solid rgb(214, 248, 248);
+
+    }
+    .login_li{
+      list-style-type: none;
+      float:center;
+      margin-top: 10%;
+      margin-bottom: 1%;
+      margin-right: 17%;
+      margin-left: 17%;
+      padding: 50px;
+      background-image: radial-gradient(rgb(135, 135, 240), rgb(214, 248, 248));
+      border: 3px solid rgb(214, 248, 248);
+    }
+    .footer{
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      text-align: left;
+      padding: 3px 15px;
+      background-color: rgb(33, 33, 78);
+      color: white;
+    }
+    
+    h1{
+      letter-spacing: 1px;
+      font-family: "Lucida Console", "Courier New", monospace;
+      text-align: center;
+    }
+    .info_text{
+      list-style-type: none;
+      text-align: center;
+      font-size:18px;
+      font-family: Georgia;
+    }
+    .info_text_a{
+      color:#121212;
+    }
+    a {
+      text-decoration: none;
+    }
+    a:hover{
+      color: rgb(254, 197, 9);
+    }
+    .label_select{
+      font-size:19px;
+      font-family: Georgia;
+      text-align: center;
+      word-spacing: 5px;
+    }
+    .registr{
+      font-size:20px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .menu input[type=text] {
+      float: right;
+      padding: 6px;
+      border: none;
+      margin-top: 4px;
+      margin-right: 16px;
+      font-size: 17px;
+    }
+    form.example input[type=text] {
+      padding: 10px;
+      font-size: 17px;
+      border: 1px solid grey;
+      float: left;
+      width: 80%;
+      background: #f1f1f1;
+    }
+    
+    .dropbtn {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    li.dropdown {
+      margin-right: 4%;
+      float: right;
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .dropdown-content a:hover {background-color: #f1f1f1;}
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
